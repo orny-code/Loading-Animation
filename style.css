@@ -1,24 +1,21 @@
-/* Reset background */
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;              /* full screen height */
-  background-color: #111;     /* dark background */
-}
+  height: 100vh;             
+  background-color: #111;   
 
-/* Loader style */
 .loader {
   width: 80px;
   height: 80px;
-  border: 8px solid #444;       /* grey border */
-  border-top: 8px solid #00ffcc;/* colored top border */
-  border-radius: 50%;           /* make it round */
+  border: 8px solid #444;      
+  border-top: 8px solid #00ffcc;
+  border-radius: 50%;         
   animation: spin 1s linear infinite;
 }
 
-/* Animation keyframes */
 @keyframes spin {
   from { transform: rotate(0deg); }
   to   { transform: rotate(360deg); }
 }
+
